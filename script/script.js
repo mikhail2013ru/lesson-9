@@ -42,22 +42,22 @@ console.log(targetAmount);
 let resultBudgetMonth = document.querySelectorAll('.result-total')[0];
 console.log(resultBudgetMonth);
 
-let budgetDayValue = document.getElementsByClassName('budget_day-value')[0];
+let budgetDayValue = document.querySelector('.budget_day-value');
 console.log(budgetDayValue);
 
-let expensesMonthValue = document.getElementsByClassName('expenses_month-value')[0];
+let expensesMonthValue = document.querySelector('.expenses_month-value');
 console.log(expensesMonthValue);
 
-let additionalIncomeValue = document.getElementsByClassName('additional_income-value')[0];
+let additionalIncomeValue = document.querySelector('.additional_income-value');
 console.log(additionalIncomeValue);
 
-let additionalExpensesValue = document.getElementsByClassName('additional_expenses-value')[0];
+let additionalExpensesValue = document.querySelector('.additional_expenses-value');
 console.log(additionalExpensesValue);
 
-let incomePeriodValue = document.getElementsByClassName('income_period-value')[0];
+let incomePeriodValue = document.querySelector('.income_period-value');
 console.log(incomePeriodValue);
 
-let targetMonthValue = document.getElementsByClassName('target_month-value')[0];
+let targetMonthValue = document.querySelector('.target_month-value');
 console.log(targetMonthValue);
 
 let periodSelect = document.querySelector('.period-select');
